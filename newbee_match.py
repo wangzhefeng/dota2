@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
+
 import requests
 import pandas as pd
 import json
@@ -23,7 +24,7 @@ def main():
 		print(data)
 		df = pd.DataFrame(data)
 		print(df)
-		df.to_csv("/home/wangzhefeng/project/python/dota/test.csv")
+		df.to_csv("F:/dota/match_data/test.csv")
 
 
 
